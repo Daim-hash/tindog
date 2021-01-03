@@ -1,0 +1,182 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  line-height: 3rem;
+  font-weight: 900;
+  font-size: 3rem;
+  margin-top: 10%;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Title Section */
+#title {
+  color: white;
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-left: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.container-fluid {
+  padding: 3% 15% 100px;
+}
+
+/* download buttons */
+.download-btn {
+  margin: 5% 3% 1%;
+}
+
+/* Title Image */
+.iphone {
+  transform: rotate(25deg);
+  width: 300px;
+  position: absolute;
+  margin-top: 10%;
+  right: 15%;
+}
+
+@media (max-width: 991px) {
+  .iphone {
+    margin: 2%;
+    transform: rotate(0deg);
+    position: static;
+  }
+
+  .r {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin-top: 10%;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Features Section */
+#features {
+  padding: 6% 12%;
+  background-color: #fff;
+  position: relative;
+}
+
+.ca {
+  margin-top: 10%;
+  line-height: 2;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 20px;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.test-img {
+  border-radius: 100%;
+  width: 15%;
+  margin: 20px auto;
+}
+
+.carousel-item {
+  padding: 100px 10% 0;
+}
+
+/* press */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 100px;
+}
+
+.press-img {
+  width: 15%;
+  margin: 50px 20px 0;
+}
+
+/* pricing Section */
+.card-deck {
+  margin: auto;
+}
+
+#pricing {
+  padding: 100px 0;
+}
+
+.pricing-column {
+  width: 300px;
+  margin: 2% 0;
+}
+
+/* cta */
+#cta {
+  background-color: #ff4c68;
+  padding-top: 100px;
+}
+
+.cta-h {
+  color: #fff;
+  width: 50%;
+  margin: 0 auto 50px;
+  font-size: 2rem;
+}
+
+.cta-btn {
+  margin: 10px;
+  margin-bottom: 100px;
+}
+
+/* footer */
+#footer {
+  background-color: #fff;
+  margin: 100px;
+}
+
+.footer-icons {
+  padding-left: 10px;
+}
